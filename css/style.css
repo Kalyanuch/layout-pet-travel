@@ -412,3 +412,24 @@
     text-shadow: 0 0 10px #d03958;
 }
 /* ----- Reviews end ----- */
+
+/* ----- Footer start ----- */
+.footer {
+    background-color: #000;
+    padding: 75px 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright {
+    color: #FFF;
+    font: normal 20px/22px PTSerif, sans-serif;
+}
+
+.footer__copyright span {
+    color: #d03958;
+}
+/* ----- Footer end ----- */
