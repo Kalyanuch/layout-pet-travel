@@ -2,6 +2,12 @@
     margin: 0 105px;
 }
 
+.title {
+    font: bold 50px/80px Montserrat, sans-serif;
+    color: #000;
+}
+
+/* ----- Promo start ----- */
 .promo {
     background: url("../img/head-bg.jpg") center center/cover no-repeat;
     min-height: 700px;
@@ -138,3 +144,37 @@
 .form__btn:hover {
     box-shadow: 0 0 10px rgba(0,0,0,.7);
 }
+/* ----- Promo end ----- */
+
+/* ----- Services start ----- */
+.our_services__title {
+    margin: 40px 0 95px 0;
+}
+
+.our_services__title span {
+    color: #d03958;
+}
+
+.our_services__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our_services__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.our_services__img {
+    margin-bottom: 45px;
+}
+
+.our_services__descr {
+    text-align: center;
+    font: normal 20px/28px PTSerif, sans-serif;
+    color: #161616;
+}
+
+/* ----- Services end ----- */
