@@ -177,7 +177,6 @@
     font: normal 20px/28px PTSerif, sans-serif;
     color: #161616;
 }
-
 /* ----- Services end ----- */
 
 /* ----- Story start ----- */
@@ -213,5 +212,97 @@
     background-color: #161616;
     color: #e3d5b8;
 }
-
 /* ----- Story end ----- */
+
+/* ----- Pricing start ----- */
+.pricing {
+    background-color: #e3d5b8;
+    padding-top: 68px;
+}
+
+.pricing__title {
+    text-align: center;
+}
+
+.pricing__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing__item {
+    width: calc(33.333% - 20px);
+    padding-top: 35px;
+    text-align: center;
+    background-color: #FFF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pricing__item__title {
+    font: normal 22px/28px PTSerif, sans-serif;
+    color: #161616;
+    margin: 0;
+    padding: 0 0 40px 0;
+}
+
+.pricing__item__cost {
+    color: #d03958;
+    font: bold 60px/80px Montserrat, sans-serif;
+    padding: 0 0 35px 0;
+    margin: 0;
+}
+
+.pricing__item__feature {
+    font: normal 20px/28px PTSerif, sans-serif;
+    color: #161616;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing__item__btn {
+    background-color: #e3d5b8;
+    border-radius: 5px;
+    color: #161616;
+    text-decoration: none;
+    font: normal 22px/28px Montserrat, sans-serif;
+    padding: 18px 20px;
+    margin-top: 55px;
+    display: inline-block;
+    min-width: 205px;
+    transition: all .3s ease;
+}
+
+.pricing__item__btn:hover {
+    color: #FFF;
+    background-color: #d03958;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 90px solid #b4a993;
+    border-right: 90px solid transparent;
+    /*border-top-left-radius: 5px;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.triangle p {
+    font: normal 16px/28px PTSerif, sans-serif;
+    color: #1f1f1f;
+    position: absolute;
+    left: 0;
+    top: -75px;
+    margin: 0;
+    padding: 0;
+    /*-moz-transform: matrix(0.67739919539163, -0.73561561299552, 0.73561561299552, 0.67739919539163, 0, 0);
+    -webkit-transform: matrix(0.67739919539163, -0.73561561299552, 0.73561561299552, 0.67739919539163, 0, 0);
+    -ms-transform: matrix(0.67739919539163, -0.73561561299552, 0.73561561299552, 0.67739919539163, 0, 0);*/
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+/* ----- Pricing end ----- */
