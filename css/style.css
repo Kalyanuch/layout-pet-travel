@@ -25,10 +25,116 @@
     text-decoration: none;
     padding: 12px 15px;
     transition: all .4s ease;
+    text-transform: uppercase;
 }
 
 .nav__item a:hover {
     color: #FFF;
     background-color: #d03958;
     border-radius: 5px;
+}
+
+.promo__content {
+    display: flex;
+    margin-top: 170px;
+    justify-content: space-between;
+}
+
+.promo__text {
+    width: 50%;
+}
+
+.promo__title {
+    font: bold 90px/80px Montserrat, sans-serif;
+    color: #d03958;
+}
+
+.promo__title span {
+    color: #000;
+}
+
+.promo__descr {
+    font: normal 20px/28px PTSerif, sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 25px;
+    background-color: #d03958;
+    border-radius: 5px;
+    position: relative;
+    bottom: -85px;
+}
+
+.form__title {
+    font: normal 22px/1.2 Montserrat, sans-serif;
+    color: #FFF;
+    margin-bottom: 37px;
+    text-align: center;
+}
+
+.form__input {
+    padding: 19px;
+    width: 315px;
+    font: normal 20px/25px PTSerif, sans-serif;
+    color: #b5b5b5;
+    margin-bottom: 16px;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+.form__input:nth-child(5) {
+    margin-bottom: 27px;
+}
+
+.form__input:active, .form__input:focus {
+    outline: none;
+}
+
+.form__checkbox {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.form__checkbox + label {
+    display: inline-flex;
+    align-items: center;
+    font: normal 20px/1.25 PTSerif, sans-serif;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.form__checkbox + label:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: #FFF;
+    border-radius: 5px;
+    margin-right: 23px;
+    text-align: center;
+}
+
+.form__checkbox:checked + label:before {
+    content: '\2713';
+    color: #d03958;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.form__btn {
+    background-color: #000;
+    border-radius: 5px;
+    color: #FFF;
+    font: normal 22px/1em Montserrat, sans-serif;
+    border-color: transparent;
+    padding: 20px 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.form__btn:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,.7);
 }
